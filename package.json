@@ -1,0 +1,19 @@
+{
+  "name": "rick-and-morty-search-api",
+  "version": "0.0.0",
+  "description": "rick and morty episodes lib with search engine",
+  "main": "src/app.js",
+  "author": "Antoine AMARA<amara.antoine@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "serve:dev": "nodemon --inspect=0.0.0.0:9042 src/app.js",
+    "lint": "eslint --fix ./src/**/*"
+  }
+}
