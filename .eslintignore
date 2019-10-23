@@ -1,0 +1,2 @@
+# ignore auto generated migrations from sequelize
+src/migrations

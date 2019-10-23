@@ -20,3 +20,7 @@ the chrome debugger can be connected to `localhost:9042`
 ### `yarn lint`
 
 Launch eslint to check code style. The code style is [airbnb javascript style](https://github.com/airbnb/javascript)
+
+### `yarn sequelize`
+
+Launch a db comand with [sequelize cli](https://github.com/sequelize/cli#documentation)
