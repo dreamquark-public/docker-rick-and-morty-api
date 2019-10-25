@@ -18,6 +18,7 @@
     "sequelize": "sequelize"
   },
   "dependencies": {
+    "graphql-yoga": "^1.18.3",
     "lodash": "^4.17.15",
     "sequelize": "^5.21.1",
     "sequelize-cli": "^5.5.1",

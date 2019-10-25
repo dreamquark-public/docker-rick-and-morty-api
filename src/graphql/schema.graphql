@@ -1,0 +1,18 @@
+type Query {
+  episodes: [Episode]!
+}
+
+type Episode {
+  id: ID!
+  name: String!
+  number: Int!
+  duration: String!
+  image: String
+  summary: String
+  season: Season
+}
+
+type Season {
+  number: Int!
+  diffusionDate: String!
+}
