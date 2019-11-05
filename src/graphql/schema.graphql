@@ -1,4 +1,9 @@
 type Query {
+  episodesLibrary(skip: Int!, limit: Int): EpisodeLibrary!
+}
+
+type EpisodeLibrary {
+  totalCount: Int!,
   episodes: [Episode]!
 }
 

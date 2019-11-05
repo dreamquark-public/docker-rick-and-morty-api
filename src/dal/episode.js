@@ -1,12 +1,14 @@
 const { Episode, Season } = require('../models');
 
-function getEpisodes() {
-  return Episode.findAll({
+function getEpisodes(skip = 0, limit = 8) {
+  return Episode.findAndCountAll({
+    offset: skip,
+    limit,
     include: [{
       model: Season,
       as: 'season',
     }],
-  }).then((episodes) => episodes);
+  });
 }
 
 module.exports = {
