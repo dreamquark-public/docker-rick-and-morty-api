@@ -6,7 +6,7 @@ async function episodesLibrary(_root, args, context) {
 
   return {
     totalCount: allEpisodes.count,
-    episodes: allEpisodes.rows,
+    collection: allEpisodes.rows,
   };
 }
 
