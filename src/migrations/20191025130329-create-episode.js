@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       summary: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING(1024)
       },
       seasonId: {
         type: Sequelize.INTEGER

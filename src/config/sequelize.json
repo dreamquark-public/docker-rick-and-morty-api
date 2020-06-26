@@ -1,14 +1,26 @@
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./db/rickandmortydb.sqlite3"
+    "username": "pguser",
+    "password": "pguserpw",
+    "database": "rickandmorty",
+    "host": "postgres",
+    "port": 5432,
+    "dialect": "postgres"
   },
   "test": {
-    "dialect": "sqlite",
-    "storage": ":memory"
+    "username": "pguser",
+    "password": "pguserpw",
+    "database": "rickandmorty",
+    "host": "postgres",
+    "port": 5432,
+    "dialect": "postgres"
   },
   "production": {
-    "dialect": "sqlite",
-    "storage": "./db/rickandmortydb.sqlite3"
+    "username": "pguser",
+    "password": "pguserpw",
+    "database": "rickandmorty",
+    "host": "postgres",
+    "port": 5432,
+    "dialect": "postgres"
   }
 }
